@@ -1,0 +1,10 @@
+@import './../../app/scss/imports';
+
+.navigation {
+  display: flex;
+  margin: 20px 0;
+  gap: 10px;
+  background-color: $neutral-100;
+  padding: 12px;
+  border-radius: 12px;
+}
