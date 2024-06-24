@@ -1,0 +1,19 @@
+@import "./../imports.scss";
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: $white;
+}
+
+.container {
+	@include fdc;
+	width: 100%;
+	max-width: 1890px;
+	padding: 0 20px;
+	margin: 0 auto;
+}
