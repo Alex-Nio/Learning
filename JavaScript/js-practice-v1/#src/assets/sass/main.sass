@@ -1,0 +1,174 @@
+@import "vendor/_reset.sass";
+
+@import "vendor/_fonts.sass";
+
+@import "vendor/_vars.sass";
+
+@import "vendor/_flexframework.sass";
+
+// -----------------------------------------------
+// --------------MAIN SETTINGS--------------------
+// -----------------------------------------------
+
+.container
+	max-width: 1920px
+	padding: 0 40px
+
+.lesson__title
+	font-size: 60px
+	color: $var6
+	text-align: center
+	position: relative
+	text-decoration: underline
+	&::first-letter
+		text-transform: uppercase
+
+.lesson__content
+	margin: 40px 0
+	@include fdcjc
+
+.trigger-content
+	display: none
+
+.trigger-actions
+	@include fdrjc_aic
+	margin-top: 20px
+	& button
+		margin: 0 20px
+
+
+// ------------------------------------------------
+// --------------UNIC BUTTONS----------------------
+// ------------------------------------------------
+
+.lesson-btn
+	@include fdrjc_aic
+	min-height: 40px
+	border-radius: 30px
+	font-size: 18px
+	font-weight: bold
+	text-transform: uppercase
+	letter-spacing: 1.5px
+	margin: 0 auto
+	padding: 3px
+	cursor: pointer
+	box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.5)
+	transition: all .5s ease
+
+.btn-pirple
+	width: 100%
+	max-width: 220px
+	height: 100%
+	color: $secondary
+	background-color: #ddbdff
+	&:hover
+		color: $primary
+		background-color: #032149
+		transition: all .5s ease
+
+// -----------------------------------------------
+// --------------HEADER SECTION-------------------
+// -----------------------------------------------
+// -----------------------------------------------
+// --------------LESSON 2 SECTION-----------------
+// -----------------------------------------------
+
+$var1: #000000
+$var2: #ffffff
+
+.box 
+	width: 150px
+	height: 150px
+	background-color: red
+
+button 
+	width: 80px
+	height: 30px
+	margin-top: 10px
+	border: none
+	border-radius: 8px
+	background-color: $var1
+	color: $var2
+	cursor: pointer
+	outline: none
+
+.circle 
+	width: 80px
+	height: 80px
+	background-color: blue
+	display: block
+	margin-top: 10px
+	border-radius: 100%
+
+.heart 
+	display: inline-block
+	position: relative
+	width: 100px
+	height: 90px
+	margin-top: 10px
+	&:before, &:after 
+		position: absolute
+		content: ""
+		left: 50px
+		top: 0
+		width: 50px
+		height: 80px
+		background: red
+		-moz-border-radius: 50px 50px 0 0
+		border-radius: 50px 50px 0 0
+		-webkit-transform: rotate(-45deg)
+		-moz-transform: rotate(-45deg)
+		-ms-transform: rotate(-45deg)
+		-o-transform: rotate(-45deg)
+		transform: rotate(-45deg)
+		-webkit-transform-origin: 0 100%
+		-moz-transform-origin: 0 100%
+		-ms-transform-origin: 0 100%
+		-o-transform-origin: 0 100%
+		transform-origin: 0 100%
+	
+	&:after 
+		left: 0
+		-webkit-transform: rotate(45deg)
+		-moz-transform: rotate(45deg)
+		-ms-transform: rotate(45deg)
+		-o-transform: rotate(45deg)
+		transform: rotate(45deg)
+		-webkit-transform-origin: 100% 100%
+		-moz-transform-origin: 100% 100%
+		-ms-transform-origin: 100% 100%
+		-o-transform-origin: 100% 100%
+		transform-origin: 100% 100%
+	
+
+.black 
+	width: 150px
+	height: 50px
+	line-height: 50px
+	text-align: center
+	background-color: black
+	margin-bottom: 30px
+	margin-top: 30px
+	color: $var2
+
+
+
+// -----------------------------------------------
+// ---------------MAIN CONTENT--------------------
+// -----------------------------------------------
+
+// -----------------------------------------------
+// -----------------SECTION-----------------------
+// -----------------------------------------------
+
+
+// -----------------------------------------------
+// -----------------FOOTER------------------------
+// -----------------------------------------------
+
+
+// -----------------------------------------------
+// ---------------MEDIA IMPORT--------------------
+// -----------------------------------------------
+
+// @import

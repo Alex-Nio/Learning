@@ -1,0 +1,212 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+  box-sizing: border-box; }
+
+a {
+  text-decoration: none; }
+
+a:hover {
+  text-decoration: none; }
+
+a:focus, a:visited, a:active {
+  outline: none;
+  text-decoration: none; }
+
+body, html {
+  overflow-x: hidden;
+  width: 100%; }
+
+button {
+  border: none;
+  box-shadow: none;
+  outline: none; }
+
+button:active, button:focus {
+  outline: none; }
+
+button::-moz-focus-inner {
+  border: 0; }
+
+html {
+  height: 100%;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%; }
+
+body {
+  min-height: 100%;
+  line-height: 1; }
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+ol, ul, li {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+.container {
+  max-width: 1920px;
+  padding: 0 40px; }
+
+.lesson__title {
+  font-size: 60px;
+  color: #66FFCC;
+  text-align: center;
+  position: relative;
+  text-decoration: underline; }
+  .lesson__title::first-letter {
+    text-transform: uppercase; }
+
+.lesson__content {
+  margin: 40px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+
+.trigger-content {
+  display: none; }
+
+.trigger-actions {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px; }
+  .trigger-actions button {
+    margin: 0 20px; }
+
+.lesson-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  min-height: 40px;
+  border-radius: 30px;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  margin: 0 auto;
+  padding: 3px;
+  cursor: pointer;
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.5);
+  transition: all .5s ease; }
+
+.btn-pirple {
+  width: 100%;
+  max-width: 220px;
+  height: 100%;
+  color: #000;
+  background-color: #ddbdff; }
+  .btn-pirple:hover {
+    color: #fff;
+    background-color: #032149;
+    transition: all .5s ease; }
+
+.box {
+  width: 150px;
+  height: 150px;
+  background-color: red; }
+
+button {
+  width: 80px;
+  height: 30px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 8px;
+  background-color: #000000;
+  color: #ffffff;
+  cursor: pointer;
+  outline: none; }
+
+.circle {
+  width: 80px;
+  height: 80px;
+  background-color: blue;
+  display: block;
+  margin-top: 10px;
+  border-radius: 100%; }
+
+.heart {
+  display: inline-block;
+  position: relative;
+  width: 100px;
+  height: 90px;
+  margin-top: 10px; }
+  .heart:before, .heart:after {
+    position: absolute;
+    content: "";
+    left: 50px;
+    top: 0;
+    width: 50px;
+    height: 80px;
+    background: red;
+    -moz-border-radius: 50px 50px 0 0;
+    border-radius: 50px 50px 0 0;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    -webkit-transform-origin: 0 100%;
+    -moz-transform-origin: 0 100%;
+    -ms-transform-origin: 0 100%;
+    -o-transform-origin: 0 100%;
+    transform-origin: 0 100%; }
+  .heart:after {
+    left: 0;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    -webkit-transform-origin: 100% 100%;
+    -moz-transform-origin: 100% 100%;
+    -ms-transform-origin: 100% 100%;
+    -o-transform-origin: 100% 100%;
+    transform-origin: 100% 100%; }
+
+.black {
+  width: 150px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  background-color: black;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  color: #ffffff; }
