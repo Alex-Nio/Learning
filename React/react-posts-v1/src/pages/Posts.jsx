@@ -55,6 +55,7 @@ export default function Posts() {
             <PostFilter filter={filter} setFilter={setFilter} />
             <button onClick={() => setModal(true)}>Создать пост</button>
           </div>
+
           {postError && <h1>Ошибка загрузки ${postError}</h1>}
 
           {isPostsLoading ? (

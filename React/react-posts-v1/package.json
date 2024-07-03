@@ -31,6 +31,9 @@
       ],
       "array-callback-return": [
         "off"
+      ],
+      "react-hooks/exhaustive-deps": [
+        "off"
       ]
     },
     "extends": [

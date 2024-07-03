@@ -34,6 +34,20 @@
   border: 2px solid teal;
   padding: 16px;
   margin: 10px 0;
+
+  &__actions {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+}
+
+.post-comment {
+  display: flex;
+  gap: 12px;
+  padding: 12px;
+  margin: 12px 0;
+  border: 1px solid teal;
 }
 
 .post__content {
@@ -106,5 +120,16 @@ button {
     display: flex;
     gap: 12px;
     margin-left: auto;
+  }
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 22px;
+
+  & input {
+    padding: 12px;
   }
 }
