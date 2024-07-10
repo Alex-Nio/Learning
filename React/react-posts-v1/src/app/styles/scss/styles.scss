@@ -91,7 +91,7 @@ button {
 
 .post-enter-active {
   opacity: 1;
-  transition: opacity 500ms ease-in;
+  transition: opacity 1s ease-in;
 }
 
 .post-exit {
@@ -100,7 +100,7 @@ button {
 
 .post-exit-active {
   opacity: 0;
-  transition: opacity 500ms ease-in;
+  transition: opacity 1s ease-in;
 }
 
 .current {
@@ -113,13 +113,13 @@ button {
   width: 100vw;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   padding: 0 16px;
   background: lightgray;
 
   &__links {
     display: flex;
     gap: 12px;
-    margin-left: auto;
   }
 }
 

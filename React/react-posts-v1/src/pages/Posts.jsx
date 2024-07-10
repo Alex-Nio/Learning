@@ -50,8 +50,8 @@ export default function Posts() {
   return (
     <div className="app">
       <div className="app-content">
-        <div className="Posts">
-          <div className="Posts-content">
+        <div className="posts">
+          <div className="posts-content">
             <PostFilter filter={filter} setFilter={setFilter} />
             <button onClick={() => setModal(true)}>Создать пост</button>
           </div>
